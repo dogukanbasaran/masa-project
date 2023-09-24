@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import RoutePage from './RoutePage'
+import RoutePage from './router/RoutePage'
 const App = () => {
   return (
     <RoutePage/>

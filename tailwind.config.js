@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sociology1':['Gemunu Libre', 'sans-serif'],
+        'sociology2':['Frank Ruhl Libre','serif'],
+        'sociology3':['Poppins','sans-serif']
+      }
+    },
   },
   plugins: [],
 }
-
