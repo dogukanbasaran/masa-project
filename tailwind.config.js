@@ -12,6 +12,9 @@ export default {
         'sociology3':['Poppins','sans-serif']
       }
     },
+    container: {
+      center: true
+    }
   },
   plugins: [],
 }
