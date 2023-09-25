@@ -8,7 +8,7 @@ const Team = () => {
            <div className='flex flex-wrap justify-center p-20'>
             {teamData.map((team) => {
               return (
-                <div className='group relative overflow-hidden' key={team.id}>
+                <div className='group relative overflow-hidden cursor-pointer' key={team.id}>
                     <img src={team.image} className='w-[240px] h-auto group-hover:scale-110 group-hover:opacity-50 duration-500'/>
                     <div className='absolute px-2 bottom-2'>
                     <h3 className=' font-sociology3 font-bold group-hover:text-blue-500 group-hover:mb-2 duration-500'>{team.name}</h3>
