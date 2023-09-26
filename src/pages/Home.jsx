@@ -1,22 +1,22 @@
 import React from 'react'
+import Blogpost from '../components/Blogpost'
+import News from '../components/News'
 
 const Home = () => {
   return (
     <main className='h-[auto] bg-black'>
       {/* Introduction */}
-      <section className='h-[580px]' id='introduction'>
-          <h2 className='text-white text-6xl font-sociology2 flex justify-center items-center '>Hoş geldiniz</h2>
+      <section className='h-[200px] p-10' id='introduction'>
+          <p className='text-white text-3xl font-sociology2 flex justify-center'>Marmara Üniversite'sinde kurulmuş olan bir sosyoloji kulübü.</p>
       </section>
-      {/* Announcements */}
-      <section className='h-[320px] p-20 border' id='announcements'>
-         <h2 className='text-white text-6xl'>Duyurular</h2>
+      {/* News */}
+      <section className='h-[auto]' id='news'>
+        <News/>
       </section>
       {/* Blog Posts */}
-      <section className='h-[400px] p-20 border' id='blog-posts'>
-        <h2 className='text-white text-6xl'>Blog Gönderileri</h2>
+      <section className='h-[auto]' id='blog-posts'>
+        <Blogpost/>
       </section>
-  
-
     </main>
   )
 }
